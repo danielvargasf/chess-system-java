@@ -8,7 +8,7 @@ public class Position {
 		
 	}
 
-	public Position(Integer row, Integer column) {
+	public Position(int row, int column) {
 		this.row = row;
 		this.column = column;
 	}
@@ -32,6 +32,11 @@ public class Position {
 	@Override
 	public String toString() {
 		return row + "," + column;
+	}
+	
+	public void setValues (int row, int column) {
+		this.row = row;
+		this.column = column;
 	}
 	
 }
